@@ -71,3 +71,30 @@ body {
     margin-bottom: 20px;
     border: 2px solid rgb(255, 255, 255, 0.2);
 } 
+
+/* Remember Me and Forgot Positioning */
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Forgot Password decorations */
+.remember-forgot a {
+    color: white;
+    text-decoration: none;
+}
+
+.register-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.register-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
